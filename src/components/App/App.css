@@ -1,0 +1,17 @@
+.app {
+    width: 100%;
+    max-width: 1440px;
+    box-sizing: border-box;
+    padding: 46px 150px 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+    .app {
+        padding: 0;
+        max-width: 500px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}

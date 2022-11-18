@@ -1,0 +1,130 @@
+.consult {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 105px;
+}
+
+.consult__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e4e5ea;
+  max-width: 291px;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.consult__title_span {
+  background: linear-gradient(92deg, #fcb045 10.99%, #fd1d1d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.consult__title_span1 {
+  background: linear-gradient(45deg, #fcb045 45.99%, #fd1d1d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.consult__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 40px 0 61px;
+  max-width: 330px;
+  display: grid;
+  grid-template-columns: repeat(2, 135px);
+  grid-gap: 30px 35px;
+}
+
+.consult__item {
+  text-align: right;
+  color: #e4e5ea;
+}
+
+.consult__item-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 6px;
+  padding: 0;
+}
+
+.consult__item-paragraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  padding: 0;
+}
+
+.consult__btn {
+  width: 262px;
+  height: 61px;
+  background-color: #4077f3;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #e4e5ea;
+  margin: 0 0 69px;
+  padding: 0;
+  border: none;
+}
+
+.consult__btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .consult {
+    margin: 0 0 59px 15px;
+    align-items: flex-start;
+  }
+
+  .consult__title {
+    max-width: 272px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .consult__list {
+    margin: 20px 0 0;
+    max-width: 305px;
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+    grid-gap: 14px 10px;
+  }
+
+  .consult__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .consult__line {
+    width: 10px;
+    height: 1px;
+  }
+
+  .consult__item-title {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 0 0 5px;
+  }
+}

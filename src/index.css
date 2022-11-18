@@ -1,0 +1,6 @@
+@import url("fontStyle/normalize.css");
+@import url("fontStyle/fonts.css");
+
+#root {
+    background-color: #0E1014;
+}
