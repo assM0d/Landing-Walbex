@@ -44,10 +44,6 @@ button {
   top: 5px;
 }
 
-.current {
-  margin-left: 47%;
-}
-
 .inputYear,
 .inputMonth,
 .inputDate,
@@ -102,7 +98,28 @@ input:invalid {
 
 input:valid {
   background-color: #ddffdd;
-  
+}
+
+.current {
+  position: relative
+  margin-left: 30%;
+  width: 900px;
+  border: 1px solid;
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: #ddffdd;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  border-bottom: 2px solid rgb;
+  transition: all 0.2s ease;
+  font-size: 20px;
+  font-weight: 300;
+  transform: translateY(-35px);
+  transition: all 0.2s ease;
+}
+.out {
+  text-align: center;
 }
 
 /* input {
