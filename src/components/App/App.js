@@ -1,17 +1,16 @@
 import Header from "../header/Header";
-import Main from "../basic/basic";
 import Footer from "../footer/Footer";
 import BgCircles from "../bgCircles/bgCircles.jsx";
 import "./App.css";
+import Basic from "../basic/basic";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <Main />
+      <Basic />
       <Footer />
-      <BgCircles/>
-
+      <BgCircles />
     </div>
   );
 }

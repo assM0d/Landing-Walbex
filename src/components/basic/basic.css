@@ -1,79 +1,79 @@
-.main {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    z-index: 2;
-    position: relative;
+.basic {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  position: relative;
 }
 
-.main__welbex-container {
-    margin-top: 90px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    max-width: 362px;
+.basic__welbex-container {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 362px;
 }
 
-.main__more {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 58px;
-    color: #E4E5EA;
-    margin: 0;
-    padding: 0;
+.basic__more {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #e4e5ea;
+  margin: 0;
+  padding: 0;
 }
 
-.main__more_welbex {
-    font-weight: 900;
-    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.basic__more_welbex {
+  font-weight: 900;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.main__welbex-description {
-    max-width: 275px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #E4E5EA;
-    margin: 30px 0 0;
-    padding: 0;
+.basic__welbex-description {
+  max-width: 275px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e4e5ea;
+  margin: 30px 0 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 500px) {
-    .main {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        background-image: url("../../images/bg.png");
-        box-sizing: border-box;
-        background-size: cover;
-        background-position: center;
-    }
+  .basic {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../images/bg.png");
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+  }
 
-    .main__welbex-container {
-        margin: 40px 0 45px 14px;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        max-width: 272px;
-    }
+  .basic__welbex-container {
+    margin: 40px 0 45px 14px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 272px;
+  }
 
-    .main__more {
-        font-size: 36px;
-        line-height: 44px;
-    }
+  .basic__more {
+    font-size: 36px;
+    line-height: 44px;
+  }
 
-    .main__more_welbex {
-        margin-bottom: 15px;
-    }
+  .basic__more_welbex {
+    margin-bottom: 15px;
+  }
 
-    .main__welbex-description {
-        margin: 15px 0 0;
-    }
+  .basic__welbex-description {
+    margin: 15px 0 0;
+  }
 }

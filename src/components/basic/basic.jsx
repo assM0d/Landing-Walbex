@@ -5,20 +5,20 @@ import { useWindowSize } from "../../window/useWindowSize";
 
 import line from "../../images/line.svg";
 
-export default function Main() {
+export default function Basic() {
   const width = useWindowSize();
-
+  const maxSize = 500;
   return (
     <>
-      {width > 500 ? (
-        <section className="main">
-          <div className="main__welbex-container">
-            <h1 className="main__more">
+      {width > maxSize ? (
+        <section className="basic">
+          <div className="basic__welbex-container">
+            <h1 className="basic__more">
               Зарабатывайте больше
               <br />
-              <span className="main__more_welbex">с WELBEX</span>
+              <span className="basic__more_welbex">с WELBEX</span>
             </h1>
-            <p className="main__welbex-description">
+            <p className="basic__welbex-description">
               Развиваем и контролируем продажи за вас
             </p>
           </div>
@@ -26,8 +26,8 @@ export default function Main() {
           <div className="consult">
             <h3 className="consult__title">
               Вместе с <span className="consult__title_span">БЕСПЛАТНОЙ</span>{" "}
-              <span className="consult__title_span1"> КОНСУЛЬТАЦИЕЙ</span>{" "}
-              мы дарим:
+              <span className="consult__title_span1"> КОНСУЛЬТАЦИЕЙ</span> мы
+              дарим:
             </h3>
 
             <ul className="consult__list">
@@ -57,21 +57,21 @@ export default function Main() {
           </div>
         </section>
       ) : (
-        <section className="main">
-          <div className="main__welbex-container">
-            <h1 className="main__more">
+        <section className="basic">
+          <div className="basic__welbex-container">
+            <h1 className="basic__more">
               Зарабатывайте больше
               <br />
-              <span className="main__more_welbex">с WELBEX</span>
+              <span className="basic__more_welbex">с WELBEX</span>
             </h1>
-            <p className="main__welbex-description">
+            <p className="basic__welbex-description">
               Развиваем и контролируем продажи за вас
             </p>
           </div>
 
           <div className="consult">
             <h3 className="consult__title">
-              Вместе с{' '}
+              Вместе с{" "}
               <span className="consult__title_span">
                 бесплатной консультацией
               </span>{" "}

@@ -1,17 +1,40 @@
 .app {
-    width: 100%;
-    max-width: 1440px;
-    box-sizing: border-box;
-    padding: 46px 150px 0;
-    position: relative;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 46px 150px 0;
+  position: relative;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 500px) {
-    .app {
-        padding: 0;
-        max-width: 500px;
-        margin: 0 auto;
-        overflow: hidden;
-    }
+  .app {
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
 }
+
+
+/* обобщение связанное с flex */
+/* .basic,
+.basic__welbex-container,
+.consult,
+.consult__item,
+.footer,
+.footer__block,
+.footer__block_contacts,
+.footer__lists,
+.footer__list,
+.footer__contacts-list,
+.footer__rights-container,
+.header__contacts,
+.bHeader,
+.header,
+.header__logo-container,
+.header__navigation,
+.header__contacts-list,
+.header__mobile {
+  
+} */

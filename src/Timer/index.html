@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CountDown</title>
+  </head>
+
+  <body>
+    <!-- шапка -->
+    <div class="timer" id="toTimer">
+      <form class="input-0">
+        <span class="heading">Set your event date</span>
+
+        <table class="future">
+          <tr class="future">
+            <th class="future">Year</th>
+            <th class="future">Month</th>
+            <th class="future">Date</th>
+            <th class="future">Hour</th>
+            <th class="future">Mins</th>
+          </tr>
+
+          <tr class="future">
+            <td class="future"><input type="text" id="inputYear" /></td>
+            <td class="future"><input type="text" id="inputMonth" /></td>
+            <td class="future"><input type="text" id="inputDate" /></td>
+            <td class="future"><input type="text" id="inputHours" /></td>
+            <td class="future"><input type="text" id="inputMinutes" /></td>
+          </tr>
+        </table>
+
+        <button type="button" onclick="setEvent()" class="event">
+          get start
+        </button>
+        <button onclick="location.reload();" class="event">Reset</button><br />
+      </form>
+
+      <span class="heading"></span>
+      <table class="current">
+        <tr>
+          <th class="current">Days</th>
+          <th class="current">Hours</th>
+          <th class="current">Minutes</th>
+          <th class="current">Seconds</th>
+        </tr>
+        <tr id="setTime">
+          <td class="current" id="outputDays"></td>
+          <td class="current" id="outputHours"></td>
+          <td class="current" id="outputMins"></td>
+          <td class="current" id="outputSecs"></td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="timer.js"></script>
+  </body>
+</html>

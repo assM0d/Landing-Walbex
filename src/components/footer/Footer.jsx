@@ -54,10 +54,12 @@ export default function Footer() {
         </p>
 
         <div className="footer__rights-container">
-          <p className="footer__rights">{"©"}WELBEX 2022. Все права защищены.</p>
+          <p className="footer__rights">
+            {"©"}WELBEX 2022. ВСЕ права защищены.
+          </p>
           <a
             className="footer__rights footer__rights_underline"
-            href="#"
+            href="!#"
             target="_blank"
           >
             Политика конфиденциальности
