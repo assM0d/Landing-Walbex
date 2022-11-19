@@ -101,8 +101,7 @@ input:valid {
 }
 
 .current {
-  position: relative
-  margin-left: 30%;
+  margin-left: 28%;
   width: 900px;
   border: 1px solid;
   margin-top: 50px;
