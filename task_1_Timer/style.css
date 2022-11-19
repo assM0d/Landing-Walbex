@@ -1,0 +1,124 @@
+.heading {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.future {
+  margin-left: 15%;
+}
+
+button {
+  width: 189px;
+  height: 63px;
+  border-radius: 15px;
+}
+
+.event {
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background: #0b63f6;
+  box-shadow: 0 5px 0 #003cc5;
+  margin-left: 44%;
+}
+
+.event1 {
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background: #0b63f6;
+  box-shadow: 0 5px 0 #003cc5;
+  margin-right: 0;
+}
+
+.event:hover,
+.event1:hover {
+  background: #003cc5;
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.current {
+  margin-left: 47%;
+}
+
+.inputYear,
+.inputMonth,
+.inputDate,
+.inputHours,
+.inputMinutes {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  left: 5px;
+  top: 50px;
+  border-radius: 10px;
+}
+
+input {
+  position: relative;
+  margin-bottom: 40px;
+  display: block;
+  padding: 0 10px;
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+  background: none;
+  border-width: 0;
+  border-bottom: 2px solid #4a90e2;
+  transition: all 0.2s ease;
+  color: #9d959d;
+  font-size: 20px;
+  font-weight: 300;
+  transform: translateY(-35px);
+  transition: all 0.2s ease;
+}
+
+input:focus {
+  outline: 0;
+  border-color: #f77a52;
+}
+
+input:focus + label,
+.form-row input:valid + label {
+  transform: translateY(-60px);
+  margin-left: -14px;
+  font-size: 14px;
+  font-weight: 400;
+  outline: 0;
+  border-color: #f77a52;
+  color: #f77a52;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+  border-color: #f77a52;
+}
+
+input:valid {
+  background-color: #ddffdd;
+  
+}
+
+/* input {
+  display: block;
+  padding: 0 10px;
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+  background: none;
+  border-width: 0;
+  border-bottom: 2px solid #4a90e2;
+  transition: all 0.2s ease;
+}
+input {
+  color: #9d959d;
+  font-size: 20px;
+  font-weight: 300;
+  transform: translateY(-35px);
+  transition: all 0.2s ease;
+}*/
