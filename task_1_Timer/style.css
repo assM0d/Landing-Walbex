@@ -4,6 +4,7 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  color: #9d959d;
 }
 
 .future {
@@ -21,9 +22,13 @@ button {
   border-radius: 10px;
   text-decoration: none;
   color: white;
-  background: #0b63f6;
-  box-shadow: 0 5px 0 #003cc5;
+  background: #ddffdd;
+  box-shadow: 0 5px 0 #adffc2;
   margin-left: 44%;
+  transition: all 0.2s ease;
+  color: #9d959d;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 .event1 {
@@ -31,14 +36,18 @@ button {
   border-radius: 10px;
   text-decoration: none;
   color: white;
-  background: #0b63f6;
-  box-shadow: 0 5px 0 #003cc5;
+  background: #ddffdd;
+  box-shadow: 0 5px 0 #adffc2;
   margin-right: 0;
+  transition: all 0.2s ease;
+  color: #9d959d;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 .event:hover,
 .event1:hover {
-  background: #003cc5;
+  background: #94ff9d;
   box-shadow: none;
   position: relative;
   top: 5px;
@@ -116,6 +125,7 @@ input:valid {
   font-weight: 300;
   transform: translateY(-35px);
   transition: all 0.2s ease;
+  color: #9d959d;
 }
 .out {
   text-align: center;
